@@ -1,0 +1,13 @@
+-- block Elements == > h1:h6 , p , list , table , div
+-- inline Elements ==> span , img , a , text formatthing , iframe
+
+-- img attributes ==> src , width , height , alt , title
+
+-- a attributes ==> href 
+                    target ==> _blank , _self (default)
+
+-- table attribute ==> border , width
+-- td , th attributes ==> colspan , rowspan
+
+-- ol attribute ==> type ==> A , a , I , i , 1 (default)
+-- ul attribute ==> type ==> circle , square , disc (default)
