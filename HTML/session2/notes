@@ -1,0 +1,16 @@
+-- meta tags ==> https://www.w3schools.com/tags/tag_meta.asp
+-- pattern html ==> https://www.w3schools.com/tags/att_input_pattern.asp
+
+-- inline Element ==> label , input , button , textarea
+-- block Element ==> form
+
+-- form attributes ==> autocomplete (off)
+                       method ==> get (default) - post
+                       action
+
+
+-- input attributes ==> type , name , autocomplete , placeholder , disabled , readonly , maxlength , minlength , value , id , autofocus
+-- type attribute ==> text , email , password , submit  , number  , radio , checkbox , file , date , datetime-local , month , color , range
+-- input type="file"  , select ==> muliple
+-- textarea ==> rows , cols , placeholder , name , value , disabled , readonly    , required  , id , autofocus
+-- select ==> required , name , value , id               

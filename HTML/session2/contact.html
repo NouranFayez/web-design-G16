@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form autocomplete="off" action="index.html">
+        <label for="firstNameID">First Name</label>
+        <input type="text" id="firstNameID"  name="firstName" placeholder="enter your name" autocomplete="off" required minlength="3" maxlength="6"> <br>
+        <label>Last Name</label>
+        <input type="text" id="lastNameID"  name="lastName" value="ahmed" disabled> <br>
+        <label>Email</label>
+        <input type="email" name="userEmail" placeholder="enter your email" autofocus  > <br>
+        <input type="password" name="userPassword" placeholder="enter your password" required> <br>
+
+        <label>Shipping Area</label>
+        <input type="text" value="alex" name="shippingArea" readonly >
+
+
+
+        <label>age</label>
+        <input type="number"> <br>
+
+        <label>gender</label>
+        <input type="radio" name="gender" value="0"  checked > MALE
+        <input type="radio" name="gender" value="1"> <label>Female</label>
+        <br>
+
+        <label>track</label>
+        <input type="checkbox" name="design" value="0"> <label>Web design</label>
+        <input type="checkbox" name="develop" value="1"> <label>Web develop</label>
+        <input type="checkbox" name="UX" value="2"> <label>UX</label>
+        <br>
+
+        <label>Address</label>
+       <textarea rows="5" cols="50" name="address" placeholder="enter your address"></textarea> <br>
+
+       <!-- <label>Track</label> -->
+       <select name="track" multiple>
+           <option disabled selected>Select Your Track</option>
+           <option value="0">design</option>
+           <option value="1" >develop</option>
+           <option value="2">Ux</option>
+       </select>
+
+
+       <br>
+       <label>Upload Image</label>
+       <input type="file" name="img" accept=".jpg , .gif"  multiple> 
+
+       <br>
+       <input type="color" name="color"> <br>
+
+       <input type="date" name="date">
+       <input type="datetime-local">
+       <input type="month"> <br>
+
+
+       <input type="range" name="range" min="100" max="300" value="250">
+
+       <label>Country Zip</label>
+       <input type="text" name="country" pattern="[A-Za-z]{2}" title="please enter 2 letter"> 
+       <br>
+       <input type="text" name="ID" pattern="[0-9]{5}" title="please enter 5 number" placeholder="enter your ID">
+
+
+       
+       
+
+
+
+
+
+
+
+
+
+
+        <!-- username@domain.subdomain -->
+        <!-- nouran_ahmed269@hotmail.com -->
+
+
+
+        <br>
+        <button> Sign in</button>
+        <input type="submit" value="Sign Up">
+        <input type="reset" value="Clear">
+    </form>
+
+    <button>Register</button>
+ 
+</body>
+</html>

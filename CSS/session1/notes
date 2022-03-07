@@ -1,0 +1,13 @@
+-- css methods ==> internal sheet
+                   inline element
+                   external sheet
+
+
+-- css comment ==> /* comment.... */
+
+-- css selectors ==> tagName , class , id
+
+
+css selector{
+    property Name : property value ;
+}
