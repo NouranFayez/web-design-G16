@@ -1,0 +1,4 @@
+-- display ==> block , inline , inline-block , none 
+-- vertical-align ==> top , middle , bottom
+-- visibility ==> visible (default) , hidden
+-- box-sizing==> border-box , content-box (default)
