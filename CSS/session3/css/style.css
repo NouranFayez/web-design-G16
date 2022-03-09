@@ -1,0 +1,117 @@
+/* reset style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* global style */
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.text-white{
+    color: white;
+}
+.d-inline-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.padding-left{
+    padding-left: 2%;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/* form implementation */
+/* section{
+    background-color: #11CFCF;
+}
+
+section form , section aside{
+    width: 30%;
+    display: inline-block;  
+}
+aside{
+  margin-left: 15%;
+}
+input{
+    display: block;
+    padding: 2% 0;
+    margin-bottom: 3%;
+} */
+
+nav{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding: 0.5% 0;
+}
+nav h1 {
+    /* width: 63%; */
+    float: left;
+}
+nav ul{
+    width: 35%;
+    float: right;
+
+}
+nav ul li {
+    margin-left: 8%;
+}
+
+.bg-light{background-color: lightgray;}
+.bg-blue{background-color: lightblue;}
+.bg-green{background-color: olivedrab;}
+.bg-orange{background-color: orange;}
+
+section{
+    height: 700px;
+}
+
+section .custom_text{
+    font-weight: lighter;
+    font-family: cursive;
+}
+
+.custom_paragraph{
+    font-weight: bold;
+}
+
+main{
+    background-color: #e6e3e3;
+    padding: 3% 0;
+}
+.head-title{
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.card{
+    width: 30%;
+    border: 2px solid #2e2d2d;
+   float: left;
+}
+.card-img{
+    width: 100%;
+}
+
+.card-body{
+    padding: 2%;
+}
+
