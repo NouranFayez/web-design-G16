@@ -1,0 +1,8 @@
+-- background-image : url(image path)
+-- background-repeat-x : no-repeat , repeat(default)
+-- background-repeat-y : no-repeat , repeat(default)
+-- background-repeat ==> background-repeat-x + background-repeat-y
+-- background-position-x : left (default) , center , right
+-- background-position-y : top (default) , center , bottom
+-- background-position ==> background-position-x + background-position-y
+-- background-size: 100% 100%  , cover  contain (search); 
