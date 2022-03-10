@@ -67,3 +67,11 @@
 .bg-img2{
     background-image: url(../../session3/images/screen-0.jpg);
 }
+
+
+.social-media-icon{
+    font-size: 34px;
+    color: blue;
+    border: 2px solid red;
+    padding: 2%;
+}
