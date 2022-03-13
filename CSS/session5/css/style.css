@@ -1,0 +1,225 @@
+/* reset style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* global style */
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.text-white{
+    color: white;
+}
+.d-inline-block{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.padding-left{
+    padding-left: 2%;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/* form implementation */
+/* section{
+    background-color: #11CFCF;
+}
+
+section form , section aside{
+    width: 30%;
+    display: inline-block;  
+}
+aside{
+  margin-left: 15%;
+}
+input{
+    display: block;
+    padding: 2% 0;
+    margin-bottom: 3%;
+} */
+
+header {
+    background-color: blue;
+    padding: 5%;
+}
+nav{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding: 0.5% 0;
+    /******* position==> fixed *******/
+    /* position: fixed;
+    width: 100%;
+    top: 0; */
+    /******* position==> sticky *******/
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav h1 {
+    /* width: 63%; */
+    float: left;
+}
+nav ul{
+    width: 35%;
+    float: right;
+
+}
+nav ul li {
+    margin-left: 8%;
+}
+
+.bg-light{
+    background-color: lightgray; 
+/* position==> fixed */
+/* margin-top: 7%; */
+}
+.bg-blue{background-color: lightblue;}
+.bg-green{background-color: olivedrab;}
+.bg-orange{background-color: orange;}
+
+section{
+    height: 700px;
+}
+
+.card{
+    width: 30%;
+    display: inline-block;
+    background:lightpink;
+    position: relative
+}
+
+.custom-position{
+  
+}
+.square{
+    width: 30px;
+    height: 30px;
+    background-color: lightpink;
+    position: absolute;
+    left: 3%;
+}
+.card:hover{
+    background-color: #b6fdff;
+}
+
+.card:hover .square{
+    background-color: #b6fdff;
+
+}
+.card:hover .custom-position{
+    color: red;
+    font-size: 25px;
+}
+
+.up-icon{
+    font-size: 33px;
+    background-color: black;
+    color: white;
+    margin-left: 2%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 3px solid red;
+    position: fixed;
+    bottom: 15px;
+    right: 3%;
+}
+
+
+
+#main_div{
+    background-color: beige;
+    width: 30%;
+    padding: 2%;
+}
+
+
+/* #main_div h1{
+    color: red;
+} */
+
+#main_div > h1{
+    color: red;
+}
+/* #main_div:hover h1{
+    color: blue;
+} */
+#main_div:hover > h1{
+    color: #1ee32a;
+}
+
+#main_div + h3{
+    color: red;
+    border: 2px solid;
+}
+
+#main_div ~ .custom_h3{
+    background-color: #cece26;
+}
+
+#main_div:hover + h3{
+    color: blue;
+}
+
+.custom_h3.active{
+    color: bisque;
+}
+
+.custom-input[name]{
+    border: 5px solid blue;
+}
+
+input[type=password]{
+    border: 5px solid red;
+}
+
+input[type=email]{
+    border: 0;
+    border-bottom: 4px solid blue;
+}
+
+input[type=email]:focus{
+    outline: 0;
+    border-color: orange;
+}
+
+.custom-line-height{
+    line-height: 2;
+}
+
+
+
+#custom_img{
+    width: 300px;
+    height: 400px;
+    /* filter: grayscale(100%); */
+}
+
+#custom_img:hover{
+    /* filter: grayscale(0%); */
+    filter: brightness(100%);
+    filter: contrast(100%);
+    filter: blur(10px);
+    filter: opacity(100%);
+}

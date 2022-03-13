@@ -1,0 +1,17 @@
+-- cdn ==> content delivery network
+
+--  fontawesome cdn ==> https://cdnjs.com/libraries/font-awesome
+
+-- position ==> fixed , sticky , relative , absolute , static(default)
+            ==> left , right , top , bottom , z-index
+
+
+-- css selectors ==> https://www.w3schools.com/cssref/css_selectors.asp
+
+
+-- filter ==> grayscale(%) ==> 0% (default)
+              brightness(%) ==> 100% (default)
+              contrast(%) ==> 100% (default)
+              blur(px) ==> 0 (default)
+              opacity(%) ==> 100% (default)
+              drop-shadow() ==> search
