@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* direction: rtl; */
+    font-family: 'Dancing Script', cursive;
+}
+ul{
+    list-style: none;
+}
+
+
+/* global style */
+.arabic-font{
+    font-family: 'Cairo', sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-flow: wrap row;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: black;
+    height: 653px;
+    align-content: space-evenly;
+}
+.bg-light{
+    background-color: lightgray;
+}
+.bg-blue{
+    background-color: lightblue;
+}
+.bg-pink{
+    background-color: lightpink;
+}
+.bg-gold{
+    background-color: goldenrod;
+}
+.card{
+    width: 30%;
+}
+.align-self-start{
+    align-self: flex-start;
+}
+
+
+
+nav{
+    background-color: black;
+    color: white;
+}
+
+.display-flex{
+    display: flex;
+    
+}
+.align-items-center{
+    align-items: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+nav h1 {
+    font-size: 40px;
+}
+nav ul {
+    width: 40%;
+}
+
+section{
+    padding: 4% 0;
+}
+
+.custom-img{
+    width: 30%;
+
+}
+.section-details{
+    width: 40%;
+}
+
+.custom-rounded-icon{
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.flex-item{
+    width: 79%;
+}
+.custom-margin{
+    margin-top: 5%
+}

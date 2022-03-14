@@ -1,0 +1,29 @@
+-- dir ==> ltr (default) , rtl , auto
+-- ltr ==> left to right
+-- rtl ==> right to left
+
+
+--- flex box ---
+
+-- parent = display ==> flex
+            flex-wrap ==> nowrap (default) , wrap
+            flex-direction ==> row (default) , row-reverse , column , column-reverse 
+            flex-flow ==> flex-wrap + flex-direction
+            justify-content: flex-start (default) , flex-end , center , space-between , space-around , space-evenly
+            align-items : stretch(default) , flex-start , flex-end , center
+            align-content : flex-start , flex-end , center , space-evenly , space-around , space-between
+
+-- children ==> order 
+                align-self ==> flex-start , flex-end , center
+
+
+
+-- flex Reference ==> https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+-- 90px / 3 = 30
+-- 30 / 2 = 15
+
+
+
+-- flex task ==> https://preview.colorlib.com/theme/world/
