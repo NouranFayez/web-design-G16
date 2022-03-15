@@ -1,0 +1,30 @@
+-- pesudo Class & pesudo Element ==> https://www.w3schools.com/css/css_pseudo_classes.asp
+
+-- Pesudo Class ==> :hover 
+                    :focus
+                    :disabled
+                    :required
+                    :checked
+                    :link (a) ==> unvisited link
+                    :visited (a) ==> visited link
+                    :active (a)
+                    :first-child
+                    :last-child
+                    :nth-child() ==> num , even , odd
+
+
+-- Pesudo Element ==> ::first-letter
+                      ::first-line
+                      ::placeholder
+                      ::marker
+                      ::selection
+                      ::before
+                      ::after
+
+
+-- border-collapse ==> seperate (default) , collapse
+
+
+-- fontawesome pesudo element ==> https://fontawesome.com/v5/docs/web/advanced/css-pseudo-elements
+
+-- wow documentation ==> https://wowjs.uk/docs.html
