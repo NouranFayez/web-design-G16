@@ -1,5 +1,6 @@
 -- opacity ==> 0 : 1
 -- visibility ==> hidden , visible (default)
+-- overflow ==> auto , scroll , hidden
 
 -- 1em ==> 16px
 -- 1rem ==> 16px 
@@ -7,3 +8,23 @@
 
 -- media Query ==> condition , breakpoint
 -- condition==> max-width , min-width , range
+
+
+
+-- transition-duration ==> time (s / ms)
+-- transition-property ==> all(default) , css property
+-- transition-delay ==> time (s / ms)
+-- transition-timing-function ==> ease ==> start slow , then fast , end slow (default)
+                                  linear ==> same speed from sttart toe end of time
+                                  ease-in ==> start slow 
+                                  ease-out ==> end slow
+                                  ease-in-out ==> start slow , medium , end slow
+
+-- transition ==> transition-duration , transition-property , transition-timing-function
+
+
+-- background-image: linear-gradient(direction , color1 , color2 ,color3.........);
+-- direction ==> top to bottom (default)
+                 bottom to top  = to top
+
+-- background-image: radial-gradient(shap , color1 , color 2 ........);                 
