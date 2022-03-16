@@ -1,0 +1,9 @@
+-- opacity ==> 0 : 1
+-- visibility ==> hidden , visible (default)
+
+-- 1em ==> 16px
+-- 1rem ==> 16px 
+
+
+-- media Query ==> condition , breakpoint
+-- condition==> max-width , min-width , range

@@ -1,0 +1,72 @@
+
+/* screen ==> 340px */
+
+
+/* 0 : 767.98px */
+/* @media (max-width: 767.98px) { 
+    .right-aside{
+        background-color: aquamarine;
+    }
+} */
+
+
+/* 0 : 575.98px */
+/* @media (max-width: 575.98px) { 
+    .d-flex{
+        flex-direction: column;
+    }
+    .flex-mwdia{
+        flex-direction: row ;
+    }
+    .left-aside{
+        width:100%
+    }
+ } */
+
+
+/* 0 : 360px */
+/* @media (max-width : 360px){
+    .left-aside{
+        background-color: lightgray;
+        width: 100%;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+    .w-45{
+        width: 100%;
+    }
+    .right-aside{
+        background-color: transparent;
+    }
+
+} */
+
+
+
+/* 992px : up to */
+/* @media (min-width:992px){
+    .left-aside{
+        background-color: brown;
+    }
+} */
+
+
+
+/* range ==> 360 : 576 */
+@media (min-width:360px) and (max-width:576px){
+    .left-aside{
+        background-color: aqua;
+        width: 100%;
+    }
+    .right-aside{
+        width: 100%;
+    }
+
+}
+
+@media (min-width : 768px) and (max-width:992px){
+    .left-aside{
+        background-color: chartreuse;
+    }
+}

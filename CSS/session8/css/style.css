@@ -1,0 +1,43 @@
+/* reset style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+.w-45{
+    width: 45%;
+}
+.w-100{
+    width: 100%;
+}
+
+
+/* custom style */
+.card{
+    width: 40%;
+    background-color: lightgray;
+    padding: 1%;
+}
+.card-title{
+    opacity: 0;
+    /* visibility: hidden; */
+}
+
+.card-title:hover + p{
+    color: red;
+}
+
+.left-aside{
+    width: 65%;
+}
+.right-aside{width: 30%;}
