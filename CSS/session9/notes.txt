@@ -1,0 +1,27 @@
+- transform 2d==> translateX(px/%)  (+ve) : right / (-ve) : left
+                 translateY(px/%)  (+ve) : bottom / (-ve) : top
+                 translate(translateX , translateY)
+                 scaleX(num)  ==> width
+                 scaleY(num) ==> height
+                 scale(num) ==> width , height
+                 rotate(deg)
+                 skewX(deg)
+                 skewY(deg)
+                 skew(skewX , skewY)
+                 matrix(scaleX , skewY , skewX , scaleY , translateX , translateX)
+
+
+-- transform 3d ==> search
+
+-- animation-name : name of @keyframes
+-- animation-duration :time (s/ms)
+-- animation-delay : time (s/ms)
+-- animation-iteration-count : num / infinite
+-- animation-direction : normal (default) 0% : 100%
+                         reverse 100% : 0%
+                         alternate ==> 0% : 100% /// 100% : 0%
+                         alternate-reverse ==> 100% : 0% /// 0% : 100%
+-- animation-fill-mode ==> search
+-- animation-timing-function : same as transition-timing-function
+-- animation: name duration timing-function delay iteration-count direction fill-mode;
+

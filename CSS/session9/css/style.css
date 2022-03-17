@@ -1,0 +1,131 @@
+/* reset style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+/* custom style */
+
+.bg-blue{
+    background-color: lightblue;
+}
+.bg-gray{
+    background-color: lightgray;
+}
+.custom_div{
+    width: 30%;
+    margin-top: 15%;
+    padding: 2%;
+    display: inline-block;
+    transition: 2s;
+    
+}
+
+
+.custom_div:hover{
+    transform: translateX(50%);
+    transform: translateY(0%);
+    transform: translate(50px, 100px);
+    transform: scaleX(0);
+    transform: scaleY(1.5);
+    transform: scale(1.5 , 0.5);
+    transform: rotate(360deg);
+    transform: skewX(40deg);
+    transform: skewY(40deg);
+    transform: skew(40deg , 60deg);
+    /* matrix(scaleX , skewY , skewX , scaleY , translateX , translateX) */
+    transform: matrix(1.3 , 0.4 , 0 , 0.7 , 100 , 100);
+
+
+
+}
+
+.card{
+    width: 50%;
+    border: 5px solid blue;
+    margin-top: 4%;
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+    display: block;
+    transition: 2s;
+}
+.card img:hover{
+    transform: rotate(40deg);
+    transform: scale(1.3);
+    transform: rotate(20deg) scale(2 , 2);
+}
+
+.animation_div{
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    /* animation-name: changeBgColor; */
+    /* animation-duration: 6s; */
+    /* animation-delay: 3s; */
+    /* animation-iteration-count: 2; */
+    /* animation-direction: alternate-reverse; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation: changeBgColor 6s linear 2s 2 alternate-reverse; */
+}
+
+
+@keyframes changeBgColor {
+    /* from{
+        background-color: lightgray;
+    }
+    to{
+        background-color: blue;
+    } */
+
+    0%{
+        background-color: lightgray;
+        transform: translate(0 , 0);
+    }
+    25%{
+        background-color: blue;
+        transform: translate(400px , 0);
+
+    }
+    50%{
+        background-color: lightpink;
+        transform: translate(400px , 400px);
+
+    }
+    75%{
+        background-color: brown;
+        transform: translate(0 , 400px);
+    }
+    100%{
+        background-color: antiquewhite;
+    }
+}
+
+
+
+.custom-loading{
+    font-size: 50px;
+    margin-top: 4%;
+    color: red;
+    animation: loading 1s infinite linear ;
+}
+
+@keyframes loading{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
