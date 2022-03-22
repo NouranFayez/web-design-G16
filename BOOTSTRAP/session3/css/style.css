@@ -1,0 +1,14 @@
+.custom-height{
+    height: 500px;
+}
+.carousel-item img{
+    height: 500px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.carousel-indicators{
+    left: auto;
+}
