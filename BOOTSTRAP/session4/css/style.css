@@ -1,0 +1,9 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #b74448;
+}
+.progress-bar{
+    width: 25%;
+}
+.progress-bar:hover{
+    width: 100%;
+}
