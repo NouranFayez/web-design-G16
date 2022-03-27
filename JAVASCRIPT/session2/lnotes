@@ -1,0 +1,29 @@
+-- loops ==> while , for , foreach
+
+-- function ==> block of code
+                name
+                parameters - default Parameters
+                return value
+                call function
+
+-- function statment
+-- function expression
+-- arrow function                
+
+
+
+-- Array Methods (function) ==> push(item/s) ==> add at the end Array
+                                unshift(item/s) ==> add from the start of Array
+                                shift() ==> remove 1 item from the start of Array
+                                pop() ==> remove item at the end of Array
+                                splice(startIndex , deletedCount , item/s) ==> add item/s
+                                                                               remove item/s
+                                                                               add / remove item/s
+                                includes(item) ==> boolean type
+                                concat()
+                                toString()
+                                join()
+                                sort() ==> search
+                                reverse()   ==> search                                             
+
+
