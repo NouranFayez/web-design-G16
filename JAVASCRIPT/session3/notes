@@ -1,0 +1,20 @@
+-- Array Methods ==> forEach()
+                     find() = return first item match the condition
+                            = undefined ==> wrong condition
+                     findIndex() = return first index match the condition
+                            = -1 ==> wrong condition      
+                     filter() = return new array 
+                              = empty array ==> wrong codition
+
+-- Methods of array == https://www.w3schools.com/jsref/jsref_find.asp
+
+
+
+var users = []
+addUser() ==> name , id , balance
+
+editUserBalanceById() ==> id , newBalance
+
+deleteUserById() ==> id
+
+
