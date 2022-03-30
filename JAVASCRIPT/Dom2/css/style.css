@@ -1,0 +1,32 @@
+.custom_div{
+    background-color: lightgray;
+    width: 40%;
+    padding: 2%;
+}
+/* .custom_div:hover{
+    background-color: lightpink;
+} */
+
+
+#scroll_section{
+    width: 30%;
+    height: 300px;
+    background-color: olive;
+    color: white;
+    font-size: 25px;
+    overflow: auto;
+}
+
+body{
+    height: 4000px;
+}
+
+#topBtn{
+    font-size: 50px;
+    position: fixed;
+    color: red;
+    bottom: 20px;
+    right: 3%;
+    display: none;
+}
+

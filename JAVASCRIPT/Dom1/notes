@@ -1,0 +1,8 @@
+-- dom ==> document object model
+
+
+-- document ==> .getElementById(elementID)
+                .getElementsByTagName(tagName) ==> return Array
+                .getElementsByClassName(ClassName) ==> return Array
+                .querySelector(css selector)
+                .querySelectorAll(css selector) ==> return array

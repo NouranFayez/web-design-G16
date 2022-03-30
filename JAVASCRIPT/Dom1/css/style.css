@@ -1,0 +1,7 @@
+.custom_style{
+    color: red;
+    background-color: lightgray;
+    border: 2px solid;
+    border-radius: 15px;
+    width: 30%;
+}
